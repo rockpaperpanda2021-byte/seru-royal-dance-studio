@@ -17,4 +17,4 @@ This Pages site mirrors the **home layout designed in Seru CMS** (section order,
 - Re-export from Seru after design changes to refresh this site.
 
 Slug: `royal-dance-studio`  
-Exported: 2026-09-29T09:45:11.662Z
+Exported: 2026-09-29T09:49:00.185Z

@@ -1,0 +1,139 @@
+{
+  "tenantId": "tenant-royal-dance-studio",
+  "slug": "royal-dance-studio",
+  "name": "Royal Dance Studio",
+  "status": "trial",
+  "packageId": "pkg-all-in-one",
+  "uiPack": "sakura",
+  "uiPacks": [
+    {
+      "id": "canyon",
+      "label": "Canyon",
+      "description": "Cream plaster, forest green, serif headlines — warm culture-club classic.",
+      "preview": {
+        "bg": "#E8DFD0",
+        "fg": "#2A1810",
+        "accent": "#3D4F2F",
+        "secondary": "#C98928"
+      },
+      "motif": "plaster",
+      "radius": "soft"
+    },
+    {
+      "id": "editorial",
+      "label": "Editorial",
+      "description": "Ink & paper — sharp edges, Newsreader, magazine contrast.",
+      "preview": {
+        "bg": "#F5F2EC",
+        "fg": "#141414",
+        "accent": "#1A1A1A",
+        "secondary": "#9A4A2A"
+      },
+      "motif": "rules",
+      "radius": "none"
+    },
+    {
+      "id": "noir",
+      "label": "Noir",
+      "description": "Dark stage — charcoal surfaces, single cyan focus.",
+      "preview": {
+        "bg": "#0E0E0E",
+        "fg": "#F0F0F0",
+        "accent": "#22D3EE",
+        "secondary": "#292929"
+      },
+      "motif": "stage",
+      "radius": "none"
+    },
+    {
+      "id": "harbor",
+      "label": "Harbor",
+      "description": "Coastal calm — mist blue canvas, deep teal actions, soft cards.",
+      "preview": {
+        "bg": "#EEF3F7",
+        "fg": "#0F2740",
+        "accent": "#0D7377",
+        "secondary": "#14919B"
+      },
+      "motif": "waves",
+      "radius": "soft"
+    },
+    {
+      "id": "lotus",
+      "label": "Lotus",
+      "description": "Classical hall — wine and antique gold, ceremonial serif.",
+      "preview": {
+        "bg": "#F7F0E8",
+        "fg": "#3B1520",
+        "accent": "#6B1E2A",
+        "secondary": "#B8860B"
+      },
+      "motif": "mandala",
+      "radius": "soft"
+    },
+    {
+      "id": "atelier",
+      "label": "Atelier",
+      "description": "Craft studio — warm clay linen, indigo stitch accents.",
+      "preview": {
+        "bg": "#F3EBE3",
+        "fg": "#2C241C",
+        "accent": "#3D4A6B",
+        "secondary": "#C47A4A"
+      },
+      "motif": "stitch",
+      "radius": "soft"
+    },
+    {
+      "id": "meadow",
+      "label": "Meadow",
+      "description": "Garden school — soft sage, linen white, friendly rounded UI.",
+      "preview": {
+        "bg": "#F2F5EF",
+        "fg": "#1E2A1C",
+        "accent": "#4A6B46",
+        "secondary": "#8B9A5B"
+      },
+      "motif": "leaves",
+      "radius": "round"
+    },
+    {
+      "id": "metro",
+      "label": "Metro",
+      "description": "City venue — cool slate, coral CTAs, geometric chrome.",
+      "preview": {
+        "bg": "#F4F5F7",
+        "fg": "#1A1D24",
+        "accent": "#E85D4C",
+        "secondary": "#2F3640"
+      },
+      "motif": "grid",
+      "radius": "soft"
+    },
+    {
+      "id": "sakura",
+      "label": "Sakura",
+      "description": "Quiet paper — blush wash, charcoal type, delicate rules.",
+      "preview": {
+        "bg": "#FBF6F4",
+        "fg": "#2A2224",
+        "accent": "#C97B84",
+        "secondary": "#5C4A4E"
+      },
+      "motif": "petals",
+      "radius": "soft"
+    }
+  ],
+  "enabledModules": [
+    "site",
+    "events",
+    "classes",
+    "scan",
+    "finance",
+    "memberships",
+    "cms",
+    "integrations"
+  ],
+  "navModules": {},
+  "region": "asia-south1"
+}

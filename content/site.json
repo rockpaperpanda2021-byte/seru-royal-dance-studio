@@ -227,7 +227,7 @@
     "signOff": "Regards",
     "signatureName": "RDS Owner",
     "signatureRole": "Founder · Royal Dance Studio",
-    "founderImageUrl": "/uploads/1790658900228-l7f6i2.jpg",
+    "founderImageUrl": "./media/1790658900228-l7f6i2-f4d108bc.jpg",
     "founderImageCaption": "Owner RDS",
     "founderImageAlt": "Mahathi Vijayaprakash",
     "primaryCta": {
@@ -451,8 +451,8 @@
         "background": {
           "type": "image",
           "color": "",
-          "imageUrl": "/uploads/1790661520165-0m6vu2.jpg",
-          "imageUrlSecondary": "/uploads/1790661543310-hoyw6r.jpg",
+          "imageUrl": "./media/1790661520165-0m6vu2-8fb3588e.jpg",
+          "imageUrlSecondary": "./media/1790661543310-hoyw6r-62143edc.jpg",
           "imageLayout": "split-asym-left",
           "pattern": "dots",
           "overlayOpacity": 0.04,
@@ -504,25 +504,25 @@
         "gallery": [
           {
             "id": "g-1790658579034-8sxmh",
-            "imageUrl": "/uploads/1790658579019-x0lmk7.jpg",
+            "imageUrl": "./media/1790658579019-x0lmk7-f9a0520c.jpg",
             "caption": "",
             "alt": "cameron-gibson-unvGTVX7moQ-unsplash"
           },
           {
             "id": "g-1790658579054-8c89i",
-            "imageUrl": "/uploads/1790658579048-m5s4hr.jpg",
+            "imageUrl": "./media/1790658579048-m5s4hr-737be3d7.jpg",
             "caption": "",
             "alt": "hulki-okan-tabak-t0WFxtrUgSc-unsplash"
           },
           {
             "id": "g-1790658579064-g89rq",
-            "imageUrl": "/uploads/1790658579058-njitye.jpg",
+            "imageUrl": "./media/1790658579058-njitye-8fee3c1e.jpg",
             "caption": "",
             "alt": "morgan-petroski-LsMxdW1zWEQ-unsplash"
           },
           {
             "id": "g-1790658579044-fh1px",
-            "imageUrl": "/uploads/1790658579039-pb252k.jpg",
+            "imageUrl": "./media/1790658579039-pb252k-bac380f5.jpg",
             "caption": "",
             "alt": "gang-hao-zCZzSK5yX5A-unsplash"
           }
@@ -538,7 +538,7 @@
         "background": {
           "type": "image",
           "color": "",
-          "imageUrl": "/uploads/1790661868776-24vpgz.jpeg",
+          "imageUrl": "./media/1790661868776-24vpgz-1e7d611b.jpeg",
           "imageUrlSecondary": "",
           "imageLayout": "background",
           "pattern": "none",
@@ -569,7 +569,7 @@
         "background": {
           "type": "image",
           "color": "",
-          "imageUrl": "/uploads/1790658649667-kj55yi.jpg",
+          "imageUrl": "./media/1790658649667-kj55yi-45879e47.jpg",
           "imageUrlSecondary": "",
           "imageLayout": "split-asym-left",
           "pattern": "none",
@@ -600,7 +600,7 @@
         "background": {
           "type": "image",
           "color": "",
-          "imageUrl": "/uploads/1790658746741-x6eya8.jpg",
+          "imageUrl": "./media/1790658746741-x6eya8-33b917d5.jpg",
           "imageUrlSecondary": "",
           "imageLayout": "split-asym-right",
           "pattern": "dots",
@@ -659,9 +659,9 @@
     ]
   },
   "brand": {
-    "logoUrl": "/uploads/1790658124928-gh95ut.png",
-    "headerLogoUrl": "/uploads/1790658143050-32eht2.png",
-    "footerLogoUrl": "/uploads/1790658153499-sp57b8.png",
+    "logoUrl": "./media/1790658124928-gh95ut-be444860.png",
+    "headerLogoUrl": "./media/1790658143050-32eht2-af9474b8.png",
+    "footerLogoUrl": "./media/1790658153499-sp57b8-dcf41570.png",
     "faviconUrl": "",
     "primary": "#406cd4",
     "secondary": "#d6a800",

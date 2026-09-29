@@ -7,160 +7,269 @@
   <meta name="description" content="Royal Dance Studio — customize your story." />
   <meta name="generator" content="Seru GitHub Export" />
   <meta name="seru:slug" content="royal-dance-studio" />
-  <meta name="seru:exported" content="2026-09-29T09:18:33.272Z" />
+  <meta name="seru:exported" content="2026-09-29T09:42:13.372Z" />
+  <link rel="icon" href="./media/1790658143050-32eht2-af9474b8.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #ffffff;
-      --fg: #303030;
-      --primary: #406cd4;
-      --accent: #d6a800;
-      --muted: color-mix(in srgb, #303030 55%, transparent);
+      --bg: #ffffff; --fg: #303030; --primary: #406cd4; --accent: #d6a800;
       --font-sans: "Inter", system-ui, sans-serif;
       --font-serif: "Roboto Serif", Georgia, serif;
+      --header-bg:#406cd4;--header-fg:#ffffff;--footer-bg:#406cd4;--footer-fg:#ffffff;
+    }
+    
+    :root {
+      --bg: #0e0e0e; --fg: #f4f0ea; --primary: #c9a227; --accent: #e8d5a3;
+      --muted: color-mix(in srgb, var(--fg) 55%, transparent);
+      --header-bg: color-mix(in srgb, var(--bg) 92%, transparent);
+      --header-fg: var(--fg);
+      --footer-bg: var(--bg); --footer-fg: var(--muted);
+      --font-sans: Inter, system-ui, sans-serif;
+      --font-serif: "Cormorant Garamond", Georgia, serif;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--fg);
-      font-family: var(--font-sans);
-      line-height: 1.55;
+      margin: 0; background: var(--bg); color: var(--fg);
+      font-family: var(--font-sans); line-height: 1.55;
     }
     a { color: inherit; text-decoration: none; }
     img { max-width: 100%; display: block; }
-    .wrap { width: min(1120px, calc(100% - 2.5rem)); margin-inline: auto; }
+    .wrap { width: min(72rem, calc(100% - 2.5rem)); margin-inline: auto; }
     header.nav {
-      position: sticky; top: 0; z-index: 20;
-      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      position: sticky; top: 0; z-index: 40;
+      background: var(--header-bg); color: var(--header-fg);
       backdrop-filter: blur(10px);
     }
     .nav-inner {
       display: flex; align-items: center; justify-content: space-between;
-      gap: 1rem; padding: 1rem 0;
+      gap: 1rem; padding: 1rem 0; width: min(72rem, calc(100% - 2.5rem)); margin-inline: auto;
     }
     .brand { display: flex; align-items: center; gap: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
     .brand img { height: 2.25rem; width: auto; object-fit: contain; }
-    .nav-links { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.16em; color: var(--muted); }
-    .nav-links a:hover { color: var(--fg); }
-    .hero {
-      position: relative; min-height: 78vh; display: flex; align-items: flex-end;
-      padding: 4rem 0 3.5rem; overflow: hidden;
+    .nav-links {
+      display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.72rem;
+      text-transform: uppercase; letter-spacing: 0.16em; opacity: 0.75;
     }
-    .hero-bg {
-      position: absolute; inset: 0;
-      background:
-        linear-gradient(180deg, transparent 10%, var(--bg) 92%),
-        url("http://console.localhost:5173/uploads/1790661520165-0m6vu2.jpg") center / cover no-repeat;
-      opacity: 0.85;
+    .nav-links a:hover { opacity: 1; }
+    .sec { position: relative; overflow: hidden; padding: 3.5rem 0; display: flex; flex-direction: column; }
+    .sec.hero { padding: 0; }
+    .sec-body { position: relative; z-index: 2; width: 100%; padding: 3.5rem 0; }
+    .hero .sec-body { padding: 0; width: min(72rem, calc(100% - 2.5rem)); margin-inline: auto; }
+    .sec-bg-img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: 0; pointer-events: none;
     }
-    .hero-copy { position: relative; z-index: 1; max-width: 40rem; }
-    .eyebrow { font-size: 0.7rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 1rem; }
-    h1 {
-      font-family: var(--font-serif); font-weight: 600; line-height: 1.05;
-      font-size: clamp(2.4rem, 7vw, 4.6rem); margin: 0 0 1rem;
+    .sec-pattern, .sec-overlay {
+      position: absolute; inset: 0; z-index: 1; pointer-events: none;
     }
-    .lede { font-size: 1.05rem; color: var(--muted); max-width: 34rem; }
-    .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+    .sec-overlay { background: var(--bg); }
+    .eyebrow {
+      font-size: 0.7rem; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--muted); font-weight: 600; margin: 0 0 0.75rem;
+    }
+    h1, h2 {
+      font-family: var(--font-serif); font-weight: 600; line-height: 1.1;
+      margin: 0 0 1rem; letter-spacing: -0.02em;
+    }
+    h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); max-width: 40rem; }
+    .lede { color: var(--muted); max-width: 36rem; margin: 0 0 1rem; }
+    .quote-line {
+      font-family: var(--font-serif); font-style: italic; font-size: 1.15rem;
+      color: var(--muted); max-width: 36rem;
+    }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
     .btn {
       display: inline-flex; align-items: center; justify-content: center;
-      padding: 0.85rem 1.4rem; font-size: 0.68rem; font-weight: 600;
+      padding: 0.85rem 1.35rem; font-size: 0.68rem; font-weight: 600;
       letter-spacing: 0.2em; text-transform: uppercase;
     }
     .btn-primary { background: var(--primary); color: #111; }
-    .btn-ghost { border: 1px solid color-mix(in srgb, var(--fg) 35%, transparent); color: var(--fg); }
-    section.block { padding: 4.5rem 0; }
-    section.block.alt { background: color-mix(in srgb, var(--fg) 4%, var(--bg)); }
-    h2 {
-      font-family: var(--font-serif); font-size: clamp(1.8rem, 4vw, 2.6rem);
-      font-weight: 600; margin: 0 0 1rem; line-height: 1.15;
+    .btn-ghost { border: 1px solid color-mix(in srgb, var(--fg) 30%, transparent); }
+    .btn-link {
+      margin-top: 1.25rem; padding: 0; letter-spacing: 0.22em;
+      color: var(--primary); font-size: 0.72rem; font-weight: 600;
+      text-transform: uppercase;
     }
-    .split { display: grid; gap: 2rem; align-items: center; }
-    @media (min-width: 860px) { .split { grid-template-columns: 1fr 1fr; gap: 3rem; } }
-    .portrait { aspect-ratio: 3/4; overflow: hidden; background: color-mix(in srgb, var(--fg) 8%, var(--bg)); }
-    .portrait img { width: 100%; height: 100%; object-fit: cover; }
-    .quotes { display: grid; gap: 1.25rem; }
+    .placed {
+      display: grid; gap: 2rem; align-items: center;
+      width: min(72rem, calc(100% - 2.5rem)); margin-inline: auto;
+    }
+    @media (min-width: 860px) {
+      .placed.half-left, .placed.half-right { grid-template-columns: 1fr 1fr; gap: 3rem; }
+      .placed.sides { grid-template-columns: 1fr 1.2fr 1fr; }
+    }
+    .placed-media { overflow: hidden; background: color-mix(in srgb, var(--fg) 6%, var(--bg)); min-height: 16rem; }
+    .placed-img { width: 100%; height: 100%; min-height: 18rem; object-fit: cover; }
+    .placed.window .window-frame { padding: 0.75rem; background: color-mix(in srgb, var(--fg) 8%, var(--bg)); }
+    .gal-wrap { margin-top: 2rem; width: 100%; }
+    .gal-sm { max-width: 28rem; } .gal-md { max-width: 42rem; }
+    .gal-lg { max-width: 56rem; } .gal-full { max-width: none; }
+    .gal-left { margin-right: auto; } .gal-right { margin-left: auto; } .gal-center { margin-inline: auto; }
+    .gal-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .gal-masonry { columns: 2; gap: 0.75rem; }
+    @media (min-width: 720px) { .gal-masonry { columns: 3; } }
+    .gal-masonry .gal-item { break-inside: avoid; margin-bottom: 0.75rem; }
+    .gal-strip {
+      display: flex; gap: 0.75rem; overflow-x: auto; padding-bottom: 0.5rem;
+      scroll-snap-type: x mandatory;
+    }
+    .gal-strip-item { flex: 0 0 min(70vw, 20rem); scroll-snap-align: start; }
+    .gal-split { display: grid; gap: 0.75rem; }
+    @media (min-width: 720px) { .gal-split { grid-template-columns: 1fr 1fr; } }
+    .gal-tall .placed-img, .gal-tall img { min-height: 22rem; }
+    .gal-item { margin: 0; overflow: hidden; background: color-mix(in srgb, var(--fg) 6%, var(--bg)); }
+    .gal-item img { width: 100%; height: 100%; aspect-ratio: 4/3; object-fit: cover; }
+    .gal-item figcaption {
+      font-size: 0.7rem; padding: 0.4rem 0.2rem; color: var(--muted);
+    }
+    .frm-thin { box-shadow: 0 0 0 1px color-mix(in srgb, var(--fg) 15%, transparent); }
+    .frm-thick { box-shadow: 0 0 0 2px color-mix(in srgb, var(--fg) 25%, transparent); }
+    .frm-inset { padding: 0.4rem; background: var(--bg); box-shadow: 0 0 0 1px color-mix(in srgb, var(--fg) 10%, transparent); }
+    .frm-polaroid { background: #fff; padding: 0.45rem 0.45rem 1.6rem; box-shadow: 0 10px 28px rgba(0,0,0,0.12); }
+    .quotes {
+      display: grid; gap: 1.25rem; margin-top: 2rem;
+    }
     @media (min-width: 720px) { .quotes { grid-template-columns: repeat(3, 1fr); } }
     .quote {
-      padding: 1.4rem; background: color-mix(in srgb, var(--fg) 5%, var(--bg));
-      min-height: 100%;
+      padding: 1.5rem; background: color-mix(in srgb, var(--bg) 70%, transparent);
+      display: flex; flex-direction: column; min-height: 100%;
     }
-    .quote q { font-family: var(--font-serif); font-style: italic; font-size: 1rem; display: block; }
-    .quote .who { margin-top: 1rem; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
-    footer {
-      padding: 2.5rem 0 3rem; border-top: 1px solid color-mix(in srgb, var(--fg) 10%, transparent);
-      color: var(--muted); font-size: 0.8rem;
+    .quote .mark {
+      font-family: var(--font-serif); font-size: 2.2rem; line-height: 1;
+      color: color-mix(in srgb, var(--primary) 70%, transparent); margin-bottom: 0.5rem;
     }
-    footer .row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
-    .note {
-      margin-top: 1rem; font-size: 0.72rem; color: var(--muted);
+    .quote blockquote {
+      margin: 0; flex: 1; font-family: var(--font-serif); font-style: italic;
+      font-size: 0.98rem; line-height: 1.55;
     }
+    .quote figcaption { margin-top: 1.25rem; }
+    .quote figcaption strong {
+      display: block; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+    }
+    .quote figcaption span {
+      display: block; margin-top: 0.25rem; font-size: 0.6rem;
+      letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+    }
+    footer.site-footer {
+      padding: 2.5rem 0 3rem; background: var(--footer-bg); color: var(--footer-fg);
+      border-top: 1px solid color-mix(in srgb, var(--fg) 10%, transparent);
+      font-size: 0.8rem;
+    }
+    footer .row {
+      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem;
+      width: min(72rem, calc(100% - 2.5rem)); margin-inline: auto;
+    }
+    .note { margin-top: 1rem; font-size: 0.72rem; opacity: 0.8; }
+    .deco-stamp, .deco-ambient {
+      position: fixed; z-index: 5; pointer-events: none; width: min(28vw, 11rem); height: auto;
+    }
+    .deco-top-left { top: 5rem; left: 1rem; }
+    .deco-top-right { top: 5rem; right: 1rem; }
+    .deco-bottom-left { bottom: 1.5rem; left: 1rem; }
+    .deco-bottom-right { bottom: 1.5rem; right: 1rem; }
+    .deco-center { top: 40%; left: 50%; transform: translate(-50%, -50%); }
+    .deco-texture {
+      position: fixed; inset: 0; z-index: 1; pointer-events: none; opacity: 0.06;
+    }
+    .deco-tex-grain, .deco-tex-paper {
+      background-image: radial-gradient(circle at 1px 1px, currentColor 0.6px, transparent 0.7px);
+      background-size: 4px 4px;
+    }
+    .deco-tex-linen {
+      background-image: repeating-linear-gradient(0deg, currentColor 0 1px, transparent 1px 4px);
+    }
+    .deco-tex-grid {
+      background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(90deg, currentColor 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .deco-tex-dots {
+      background-image: radial-gradient(circle at 1px 1px, currentColor 1px, transparent 0);
+      background-size: 14px 14px;
+    }
+    #contact { padding: 4rem 0; }
+  
   </style>
 </head>
 <body>
+  
   <header class="nav">
-    <div class="wrap nav-inner">
+    <div class="nav-inner">
       <a class="brand" href="#top">
-        <img src="http://console.localhost:5173/uploads/1790658143050-32eht2.png" alt="" />
+        <img src="./media/1790658143050-32eht2-af9474b8.png" alt="" />
         <span>Royal Dance Studio</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="#about">Home</a><a href="#events">Events</a><a href="#classes">Classes</a><a href="#posts">Posts</a><a href="#about">About</a><a href="#contact">Contact</a>
-        <a href="#contact">Contact</a>
+        <a href="#top">Home</a><a href="#events">Events</a><a href="#classes">Classes</a><a href="#posts">Posts</a><a href="#about">About</a><a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="wrap hero-copy">
-        <p class="eyebrow">Royal Dance Studio — customize your story.</p>
-        <h1>Royal Dance Studio</h1>
-        <p class="lede">Welcome to Royal Dance Studio. Update this site from Seru Dashboard or Site Studio.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="/classes">Browse classes</a>
-          <a class="btn btn-ghost" href="/events">Upcoming shows</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="block" id="about">
-      <div class="wrap split">
-        <div>
-          <p class="eyebrow">A Note From the Founder</p>
-          <h2>Hello</h2>
-          <p style="color:var(--muted)">I'm Mahathi Vijayaprakash, and VP Culture Club began as something I simply couldn't stop thinking about. Rooted in the spirit of our folk traditions — dance, storytelling, music, and the quiet joy of community gatherings — I wanted to build a place where culture isn't only something you watch from a seat, but something you live, share, and carry home with you.</p><p style="color:var(--muted)">For months now, I've been meeting a certain kind of person in my workshops. They usually smile, a little shy, and say something like —</p><p style="color:var(--muted)">And I understand it completely. Exams. Jobs. Children. Moving cities. Caring for parents. Somewhere along the way, the part of us that loved to perform, to listen, to create… quietly took a backseat. At VP Culture Club, I want to give that part of you a gentle way back.</p><p style="color:var(--muted)">Our sessions here in Bangalore are made especially for adults — for those who used to dance, sing, act, or tell stories when they were younger; who feel a quiet pull towards culture but aren't sure where to begin again; who worry they've become &quot;rusty,&quot; &quot;too old,&quot; or &quot;out of touch.&quot; If any of that sounds like you, then you are exactly who I had in mind.</p>
-          <p style="margin-top:1.5rem;font-family:var(--font-serif);font-size:1.4rem;color:var(--accent)">RDS Owner</p>
-                 <p style="font-size:0.65rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--muted)">Founder · Royal Dance Studio</p>
-        </div>
-        <div class="portrait"><img src="http://console.localhost:5173/uploads/1790658900228-l7f6i2.jpg" alt="Mahathi Vijayaprakash" /></div>
-      </div>
-    </section>
-
-    <section class="block alt" id="voices">
-      <div class="wrap">
-        <p class="eyebrow">Students</p>
+    <section class="sec hero" id="hero" style="position:relative;padding:6rem 1.5rem 3.5rem;display:flex;flex-direction:column;justify-content:center;">
+    
+    <div class="sec-body"><div class="placed half-left"><div class="placed-media"><img class="placed-img" src="./media/1790661520165-0m6vu2-8fb3588e.jpg" alt="" style="object-fit:cover;object-position:center;opacity:1" /></div><div class="placed-copy"><div class="hero-panel" style="max-width:36rem;display:flex;flex-direction:column;margin-right:auto;text-align:left;align-items:flex-start;padding:1.5rem;background:color-mix(in srgb, var(--bg) 92%, transparent);backdrop-filter:blur(10px);box-shadow:0 0 0 1px color-mix(in srgb, var(--fg) 8%, transparent);">
+    <p class="eyebrow" style="">Train with us</p>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.8rem);">Royal Dance Studio</h1>
+    <p class="lede" style="">Welcome to Royal Dance Studio. Update this site from Seru Dashboard or Site Studio.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="/classes" style="">Browse classes</a>
+      <a class="btn btn-ghost" href="/events" style="background:transparent;color:var(--fg);border:1px solid var(--fg)">Upcoming shows</a>
+    </div>
+  </div></div></div></div>
+  </section>
+<section class="sec" id="classes" style="min-height:45vh;position:relative;">
+    <div class="sec-pattern" style="background-image:radial-gradient(circle at 25% 25%, currentColor 0.6px, transparent 0.7px), radial-gradient(circle at 75% 75%, currentColor 0.6px, transparent 0.7px);background-size:16px 16px;color:#878787;opacity:0.12"></div>
+<div class="sec-overlay" style="opacity:0.4"></div>
+    <div class="sec-body"><div class="wrap"><p class="eyebrow">Programs</p>
+        <h2>Find your class</h2>
+        <a class="btn btn-primary" href="#classes">All classes</a><div class="gal-wrap gal-full gal-center"><div class="gal-strip"><figure class="gal-item frm-polaroid gal-strip-item"><img src="./media/1790658579019-x0lmk7-f9a0520c.jpg" alt="cameron-gibson-unvGTVX7moQ-unsplash" loading="lazy" /></figure><figure class="gal-item frm-polaroid gal-strip-item"><img src="./media/1790658579048-m5s4hr-737be3d7.jpg" alt="hulki-okan-tabak-t0WFxtrUgSc-unsplash" loading="lazy" /></figure><figure class="gal-item frm-polaroid gal-strip-item"><img src="./media/1790658579058-njitye-8fee3c1e.jpg" alt="morgan-petroski-LsMxdW1zWEQ-unsplash" loading="lazy" /></figure><figure class="gal-item frm-polaroid gal-strip-item"><img src="./media/1790658579039-pb252k-bac380f5.jpg" alt="gang-hao-zCZzSK5yX5A-unsplash" loading="lazy" /></figure></div></div></div></div>
+  </section>
+<section class="sec" id="about" style="min-height:61vh;position:relative;">
+    <img class="sec-bg-img" src="./media/1790661868776-24vpgz-1e7d611b.jpeg" alt="" style="object-fit:cover;object-position:center;opacity:1" />
+<div class="sec-overlay" style="opacity:0.01"></div>
+    <div class="sec-body"><div class="wrap"><p class="eyebrow">Our studio</p>
+        <h2>Discipline meets joy on the floor.</h2>
+        <p class="lede">From foundations to performance tracks, we build dancers who understand craft and community.</p>
+        <a class="btn btn-link" href="#about">Our story</a></div></div>
+  </section>
+<section class="sec" id="events" style="position:relative;">
+    
+    <div class="sec-body"><div class="placed half-left"><div class="placed-media"><img class="placed-img" src="./media/1790658649667-kj55yi-45879e47.jpg" alt="" style="object-fit:cover;object-position:left;opacity:1" /></div><div class="placed-copy"><p class="eyebrow">Stage</p>
+        <h2>Recitals &amp; showcases</h2>
+        <a class="btn btn-primary" href="#events">All events</a></div></div></div>
+  </section>
+<section class="sec" id="founder" style="position:relative;">
+    
+    <div class="sec-body"><div class="placed half-right"><div class="placed-copy"><div>
+        <p class="eyebrow">Artistic director</p>
+        <h2>Studio Director</h2>
+        <p class="quote-line">“We teach the body to listen — then to speak.”</p>
+        <a class="btn btn-link" href="#about">Learn more →</a>
+      </div></div><div class="placed-media"><img class="placed-img" src="./media/1790658746741-x6eya8-33b917d5.jpg" alt="" style="object-fit:cover;object-position:center;opacity:1" /></div></div></div>
+  </section>
+<section class="sec" id="community" style="position:relative;background:color-mix(in srgb, var(--fg) 5%, var(--bg));">
+    
+    <div class="sec-body"><div class="wrap"><p class="eyebrow">Students</p>
         <h2>Voices from the studio</h2>
-        <div class="quotes" style="margin-top:2rem">
-          <figure class="quote">
-              <q>Learning here isn't just about technique; it's about understanding the soul of the music. The environment is incredibly inspiring.</q>
-              <figcaption class="who">Arjun S. Pal · Vocal Student</figcaption>
-            </figure><figure class="quote">
-              <q>The attention to detail and reverence for tradition, paired with a modern pedagogical approach, makes this place unique.</q>
-              <figcaption class="who">Priya M. · Dance Student</figcaption>
-            </figure><figure class="quote">
-              <q>The intimate concerts at the haveli are a transcendental experience. You feel every note vibrate through the room.</q>
-              <figcaption class="who">Rahul V. · Club Member</figcaption>
-            </figure>
-        </div>
-      </div>
-    </section>
+        <div class="quotes"><figure class="quote">
+                <span class="mark" aria-hidden>“</span>
+                <blockquote>Learning here isn't just about technique; it's about understanding the soul of the music. The environment is incredibly inspiring.</blockquote>
+                <figcaption><strong>Arjun S. Pal</strong><span>Vocal Student</span></figcaption>
+              </figure><figure class="quote">
+                <span class="mark" aria-hidden>“</span>
+                <blockquote>The attention to detail and reverence for tradition, paired with a modern pedagogical approach, makes this place unique.</blockquote>
+                <figcaption><strong>Priya M.</strong><span>Dance Student</span></figcaption>
+              </figure><figure class="quote">
+                <span class="mark" aria-hidden>“</span>
+                <blockquote>The intimate concerts at the haveli are a transcendental experience. You feel every note vibrate through the room.</blockquote>
+                <figcaption><strong>Rahul V.</strong><span>Club Member</span></figcaption>
+              </figure></div></div></div>
+  </section>
 
-    <section class="block" id="contact">
+    <section class="sec" id="contact">
       <div class="wrap">
         <p class="eyebrow">Contact</p>
         <h2>Connect With Us</h2>
@@ -170,14 +279,14 @@
           
           <a class="btn btn-ghost" href="http://royal-dance-studio.localhost:5173/admin" rel="noopener">Site admin</a>
         </div>
-        <p class="note">Static demo exported from Seru · Booking &amp; live CMS stay on your Seru-hosted site.</p>
+        <p class="note">Static snapshot of your Seru CMS design · Booking &amp; live editing stay on Seru.</p>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap row">
-      <div>Royal Dance Studio</div>
+  <footer class="site-footer">
+    <div class="row">
+      <div>Royal Dance Studio · Royal Dance Studio — customize your story.</div>
       <div>Exported 2026-09-29 · Powered by Seru</div>
     </div>
   </footer>

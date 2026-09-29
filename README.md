@@ -19,4 +19,4 @@ This static site does **not** include live booking, payments, or CMS editing.
 Those remain on the Seru-hosted tenant. Use `ADMIN.md` for admin access.
 
 Slug: `royal-dance-studio`  
-Exported: 2026-09-29T09:14:15.262Z
+Exported: 2026-09-29T09:18:33.272Z

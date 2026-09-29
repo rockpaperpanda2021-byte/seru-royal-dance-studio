@@ -1,0 +1,737 @@
+{
+  "site": {
+    "contactFormEmail": "hello@example.com",
+    "contactDisplayEmail": "hello@example.com",
+    "contactPhone": "",
+    "venueName": "Royal Dance Studio",
+    "addressLine1": "",
+    "addressLine2": "",
+    "mapsEmbedUrl": "https://www.google.com/maps?q=TATA+Promont+Banashankari+3rd+Stage+Bengaluru+560085&z=15&output=embed",
+    "mapsDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=TATA%20Promont%20Banashankari%203rd%20Stage%20Bengaluru%20560085&travelmode=driving"
+  },
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Events",
+        "href": "/events"
+      },
+      {
+        "label": "Classes",
+        "href": "/classes"
+      },
+      {
+        "label": "Posts",
+        "href": "/posts"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "signInLabel": "Sign In",
+    "signInHref": "/login",
+    "enterLabel": "Enter",
+    "enterHref": "/dashboard"
+  },
+  "footer": {
+    "tagline": "Royal Dance Studio — customize your story.",
+    "exploreHeading": "Explore",
+    "exploreLinks": [
+      {
+        "label": "Events & Concerts",
+        "href": "/events"
+      },
+      {
+        "label": "Classes & Workshops",
+        "href": "/classes"
+      },
+      {
+        "label": "Premium Content",
+        "href": "/premium"
+      }
+    ],
+    "connectHeading": "Connect",
+    "connectLinks": [
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/vpcultureclub/",
+        "external": true
+      },
+      {
+        "label": "YouTube",
+        "href": "https://youtube.com/@vpcultureclub",
+        "external": true
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/people/VP-Culture-Club/61579831310578/",
+        "external": true
+      }
+    ],
+    "newsletterHeading": "Newsletter",
+    "newsletterDescription": "Subscribe for exclusive event invitations and masterclass updates.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterButton": "Subscribe",
+    "copyright": "© {year} Royal Dance Studio. All rights reserved.",
+    "locationLine": "Royal Dance Studio",
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "/terms"
+      }
+    ]
+  },
+  "home": {
+    "loaderTitle": "Royal Dance Studio",
+    "loaderMessage": "Welcome",
+    "hero": {
+      "eyebrow": "Train with us",
+      "title": "Royal Dance Studio",
+      "subtitle": "Welcome to Royal Dance Studio. Update this site from Seru Dashboard or Site Studio.",
+      "primaryCta": {
+        "label": "Browse classes",
+        "href": "/classes"
+      },
+      "secondaryCta": {
+        "label": "Upcoming shows",
+        "href": "/events"
+      },
+      "scrollCue": "Scroll",
+      "panel": {
+        "style": "frosted",
+        "align": "left",
+        "verticalAlign": "center",
+        "width": "medium",
+        "size": "comfortable",
+        "backgroundColor": "",
+        "backgroundOpacity": 0.92,
+        "textColor": "",
+        "mutedColor": "",
+        "eyebrowColor": "",
+        "primaryBtnBg": "",
+        "primaryBtnText": "",
+        "secondaryBtnBg": "",
+        "secondaryBtnText": "",
+        "secondaryBtnBorder": "",
+        "showSideSpot": true
+      }
+    },
+    "aboutChapter": {
+      "eyebrow": "Our studio",
+      "title": "Discipline meets joy on the floor.",
+      "body": "From foundations to performance tracks, we build dancers who understand craft and community.",
+      "viewAll": {
+        "label": "Our story",
+        "href": "/about"
+      }
+    },
+    "founderChapter": {
+      "eyebrow": "Artistic director",
+      "name": "Studio Director",
+      "quote": "We teach the body to listen — then to speak.",
+      "imageUrl": "",
+      "imageAlt": "Mahathi Vijayaprakash",
+      "imageObjectPosition": "center 28%",
+      "viewAll": {
+        "label": "Learn more →",
+        "href": "/about"
+      }
+    },
+    "classesChapter": {
+      "eyebrow": "Programs",
+      "title": "Find your class",
+      "viewAll": {
+        "label": "All classes",
+        "href": "/classes"
+      }
+    },
+    "eventsChapter": {
+      "eyebrow": "Stage",
+      "title": "Recitals & showcases",
+      "viewAll": {
+        "label": "All events",
+        "href": "/events"
+      }
+    },
+    "communityChapter": {
+      "eyebrow": "Students",
+      "title": "Voices from the studio"
+    }
+  },
+  "about": {
+    "layoutMode": "letter",
+    "founderImageStyle": "postcard",
+    "pageBackground": {
+      "type": "none",
+      "color": "",
+      "imageUrl": "",
+      "imageUrlSecondary": "",
+      "imageLayout": "background",
+      "pattern": "none",
+      "overlayOpacity": 0.4,
+      "heightMode": "auto",
+      "heightVh": 60,
+      "imageFit": "cover",
+      "imagePosition": "center",
+      "imageOpacity": 1,
+      "maskMode": "none",
+      "maskDirection": "left",
+      "maskSplit": 50,
+      "maskFeather": 25,
+      "maskClearOpacity": 0,
+      "patternColor": "",
+      "patternOpacity": 0.12,
+      "patternScale": "sm"
+    },
+    "accentColor": "#0068b8",
+    "textColor": "#5e5e5e",
+    "surfaceColor": "#ffffff",
+    "signatureFont": "Great Vibes",
+    "headlineSizeRem": 3.2,
+    "bodySizeRem": 1.05,
+    "showcaseHeadline": "",
+    "showcaseSubhead": "",
+    "gallery": [],
+    "blocks": [],
+    "heroEyebrow": "A Note From the Founder",
+    "greeting": "Hello",
+    "letterParagraphs": [
+      "I'm Mahathi Vijayaprakash, and VP Culture Club began as something I simply couldn't stop thinking about. Rooted in the spirit of our folk traditions — dance, storytelling, music, and the quiet joy of community gatherings — I wanted to build a place where culture isn't only something you watch from a seat, but something you live, share, and carry home with you.",
+      "For months now, I've been meeting a certain kind of person in my workshops. They usually smile, a little shy, and say something like —",
+      "And I understand it completely. Exams. Jobs. Children. Moving cities. Caring for parents. Somewhere along the way, the part of us that loved to perform, to listen, to create… quietly took a backseat. At VP Culture Club, I want to give that part of you a gentle way back.",
+      "Our sessions here in Bangalore are made especially for adults — for those who used to dance, sing, act, or tell stories when they were younger; who feel a quiet pull towards culture but aren't sure where to begin again; who worry they've become \"rusty,\" \"too old,\" or \"out of touch.\" If any of that sounds like you, then you are exactly who I had in mind.",
+      "This isn't a stage to prove yourself on. It's a circle to rediscover yourself in. We move at an easy, respectful pace. We talk about where these art forms come from. We laugh at our own hesitations. And slowly, something opens up — in the body, in the voice, in the heart.",
+      "So if you've ever caught yourself thinking, \"I used to love this…\" — consider this your invitation to finish that sentence differently. Because it isn't only about preserving our traditions. It's about celebrating them, together."
+    ],
+    "pullQuote": "I used to love dance but life got in the way.",
+    "signOff": "Regards",
+    "signatureName": "RDS Owner",
+    "signatureRole": "Founder · Royal Dance Studio",
+    "founderImageUrl": "/uploads/1790658900228-l7f6i2.jpg",
+    "founderImageCaption": "Owner RDS",
+    "founderImageAlt": "Mahathi Vijayaprakash",
+    "primaryCta": {
+      "label": "Find Your Class",
+      "href": "/classes"
+    },
+    "secondaryCta": {
+      "label": "See Upcoming Events",
+      "href": "/events"
+    },
+    "teamImageUrl": "",
+    "teamImageCaption": "TEAM RDS",
+    "teamImageAlt": "The VP Culture Club team",
+    "teamEyebrow": "About the Team",
+    "teamTitle": "All About Dance",
+    "teamBody": "Move with intent"
+  },
+  "contact": {
+    "title": "Connect With Us",
+    "subtitle": "Whether you are looking to enroll, attend an event, or collaborate, we would love to hear from you.",
+    "cardTitle": "Get in Touch",
+    "subjectOptions": [
+      "General Inquiry",
+      "Class Admissions",
+      "Event Booking"
+    ],
+    "submitLabel": "Send Message",
+    "successTitle": "Thank You",
+    "successMessage": "Your message has been received. Our team will respond within 24 hours.",
+    "directionsLabel": "Get Directions"
+  },
+  "eventsPage": {
+    "title": "Performances",
+    "subtitle": "Experience the magic of live classical music and dance in our acoustically refined spaces.",
+    "filterCategories": [
+      "All",
+      "Concert",
+      "Open Mic",
+      "Showcase",
+      "Workshop",
+      "Karaoke"
+    ]
+  },
+  "classesPage": {
+    "title": "Classes & Workshops",
+    "subtitle": "Best teachers handpicked by the founder herself. Structured learning for all levels.",
+    "filterCategories": [
+      "All",
+      "Vocal",
+      "Instrumental",
+      "Dance"
+    ]
+  },
+  "galleryPage": {
+    "title": "Posts",
+    "subtitle": "Moments from our concerts, classes, and the quiet corners in between. Tap any photo to take a closer look — and leave a little love."
+  },
+  "premiumPage": {
+    "backgroundImageUrl": "",
+    "eyebrow": "Coming Soon",
+    "title": "The Vault",
+    "body": "Our team is working on this currently, check in with us in 2 months! :) We want to meet all of you from around the globe soon!"
+  },
+  "livePage": {
+    "liveBadge": "Live Now",
+    "streamTitle": "Sunday Morning Baithak",
+    "youtubeVideoId": "dQw4w9WgXcQ",
+    "aboutTitle": "About this stream",
+    "aboutBody": "Join us for our weekly intimate gathering exploring morning ragas. Today we focus on Ahir Bhairav with special guest vocalist.",
+    "upcomingHeading": "Upcoming Streams",
+    "upcomingStreams": [
+      {
+        "category": "Masterclass",
+        "title": "Introduction to Thumri",
+        "metaLabel": "Starts In",
+        "metaValue": "countdown"
+      },
+      {
+        "category": "Concert",
+        "title": "Annual Showcase",
+        "metaLabel": "Date",
+        "metaValue": "Dec 20, 2024"
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Legal",
+    "title": "Terms & Conditions",
+    "effectiveDate": "Effective date: May 2026 · Dvaar Lifestyle Pvt Ltd (VP Culture Club)",
+    "sections": [
+      {
+        "title": "Cancellation & Refund Policy",
+        "body": "Cancellations made before 48 hours of the workshop will incur a 50% cancellation fee. Cancellations made within 48 hours or on the same day of the workshop will not be eligible for any refund. If a workshop is cancelled or rescheduled by VPCC, participants may choose a full refund or transfer their registration to another workshop. Refunds, where applicable, will be processed within 7–10 business days. No adjusting of amount — paid amounts cannot be partially transferred or adjusted against other events, classes, or subscriptions."
+      },
+      {
+        "title": "Bookings & Registrations",
+        "body": "All bookings and registrations are subject to availability. VP Culture Club reserves the right to limit the number of seats per event or class. Booking confirmation will be sent to the registered email address upon successful payment."
+      },
+      {
+        "title": "Participant Conduct",
+        "body": "All participants are expected to maintain respectful behaviour towards instructors, performers, and fellow attendees. VP Culture Club reserves the right to remove any individual whose conduct is deemed disruptive or inappropriate, without a refund."
+      },
+      {
+        "title": "Intellectual Property",
+        "body": "All content on this website — including text, imagery, video tutorials, and course materials — is the intellectual property of Dvaar Lifestyle Pvt Ltd (VP Culture Club) or its licensors. Reproduction, redistribution, or recording of any session or content without prior written permission is strictly prohibited."
+      },
+      {
+        "title": "Premium Subscriptions",
+        "body": "Premium subscription plans grant access to exclusive video content for the duration of the subscription period. Subscriptions do not auto-renew without explicit consent. Access is non-transferable and for personal use only."
+      },
+      {
+        "title": "Governing Law",
+        "body": "These terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Bengaluru, Karnataka."
+      }
+    ],
+    "contactEmail": "vpcultureclub.in@gmail.com"
+  },
+  "tickets": {
+    "brandName": "Royal Dance Studio",
+    "logoUrl": "",
+    "admitLabel": "Admit One",
+    "contactEmail": "vpcultureclub.in@gmail.com",
+    "contactPhone": "8591046866",
+    "backTitle": "Terms & Conditions",
+    "backHint": "Scan to read the full terms",
+    "generalAdmissionNote": "Please note that seating is on a first-come, first-served basis.",
+    "thankYouLine": "Thank you for joining us."
+  },
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Arjun S. Pal",
+      "role": "Vocal Student",
+      "quote": "Learning here isn't just about technique; it's about understanding the soul of the music. The environment is incredibly inspiring."
+    },
+    {
+      "id": "2",
+      "name": "Priya M.",
+      "role": "Dance Student",
+      "quote": "The attention to detail and reverence for tradition, paired with a modern pedagogical approach, makes this place unique."
+    },
+    {
+      "id": "3",
+      "name": "Rahul V.",
+      "role": "Club Member",
+      "quote": "The intimate concerts at the haveli are a transcendental experience. You feel every note vibrate through the room."
+    }
+  ],
+  "typography": {
+    "eyebrow": {
+      "minRem": 0.52,
+      "maxRem": 0.62
+    },
+    "pageEyebrow": {
+      "minRem": 0.8,
+      "maxRem": 0.95
+    },
+    "heroTitle": {
+      "minRem": 2.6,
+      "maxRem": 5.4
+    },
+    "heroSubtitle": {
+      "minRem": 1,
+      "maxRem": 1.32
+    },
+    "chapterTitle": {
+      "minRem": 1.8,
+      "maxRem": 3.2
+    },
+    "chapterBody": {
+      "minRem": 0.95,
+      "maxRem": 1.08
+    },
+    "founderName": {
+      "minRem": 1.7,
+      "maxRem": 2.6
+    },
+    "founderQuote": {
+      "minRem": 0.95,
+      "maxRem": 1.1
+    },
+    "pageHero": {
+      "minRem": 2.5,
+      "maxRem": 3.75
+    },
+    "pageSubtitle": {
+      "minRem": 1.1,
+      "maxRem": 1.25
+    },
+    "aboutGreeting": {
+      "minRem": 1.9,
+      "maxRem": 2.6
+    },
+    "aboutBody": {
+      "minRem": 1.12,
+      "maxRem": 1.28
+    },
+    "aboutPullQuote": {
+      "minRem": 1.3,
+      "maxRem": 1.6
+    },
+    "sectionTitle": {
+      "minRem": 2,
+      "maxRem": 3.2
+    },
+    "premiumTitle": {
+      "minRem": 2.6,
+      "maxRem": 4.4
+    },
+    "premiumBody": {
+      "minRem": 1.3,
+      "maxRem": 2
+    }
+  },
+  "layout": {
+    "homeMode": "stack",
+    "homeSections": [
+      {
+        "id": "hero",
+        "enabled": true,
+        "background": {
+          "type": "image",
+          "color": "",
+          "imageUrl": "/uploads/1790661520165-0m6vu2.jpg",
+          "imageUrlSecondary": "/uploads/1790661543310-hoyw6r.jpg",
+          "imageLayout": "split-asym-left",
+          "pattern": "dots",
+          "overlayOpacity": 0.04,
+          "heightMode": "auto",
+          "heightVh": 60,
+          "imageFit": "cover",
+          "imagePosition": "center",
+          "imageOpacity": 1,
+          "maskMode": "none",
+          "maskDirection": "left",
+          "maskSplit": 50,
+          "maskFeather": 25,
+          "maskClearOpacity": 0,
+          "patternColor": "#fcfcfc",
+          "patternOpacity": 0.6,
+          "patternScale": "sm"
+        },
+        "gallery": [],
+        "galleryStyle": "none",
+        "gallerySize": "md",
+        "galleryAlign": "center",
+        "galleryFrame": "none"
+      },
+      {
+        "id": "classes",
+        "enabled": true,
+        "background": {
+          "type": "pattern",
+          "color": "#ffffff",
+          "imageUrl": "",
+          "imageUrlSecondary": "",
+          "imageLayout": "background",
+          "pattern": "stipple",
+          "overlayOpacity": 0.4,
+          "heightMode": "custom",
+          "heightVh": 45,
+          "imageFit": "cover",
+          "imagePosition": "center",
+          "imageOpacity": 1,
+          "maskMode": "none",
+          "maskDirection": "left",
+          "maskSplit": 50,
+          "maskFeather": 25,
+          "maskClearOpacity": 0,
+          "patternColor": "#878787",
+          "patternOpacity": 0.12,
+          "patternScale": "sm"
+        },
+        "gallery": [
+          {
+            "id": "g-1790658579034-8sxmh",
+            "imageUrl": "/uploads/1790658579019-x0lmk7.jpg",
+            "caption": "",
+            "alt": "cameron-gibson-unvGTVX7moQ-unsplash"
+          },
+          {
+            "id": "g-1790658579054-8c89i",
+            "imageUrl": "/uploads/1790658579048-m5s4hr.jpg",
+            "caption": "",
+            "alt": "hulki-okan-tabak-t0WFxtrUgSc-unsplash"
+          },
+          {
+            "id": "g-1790658579064-g89rq",
+            "imageUrl": "/uploads/1790658579058-njitye.jpg",
+            "caption": "",
+            "alt": "morgan-petroski-LsMxdW1zWEQ-unsplash"
+          },
+          {
+            "id": "g-1790658579044-fh1px",
+            "imageUrl": "/uploads/1790658579039-pb252k.jpg",
+            "caption": "",
+            "alt": "gang-hao-zCZzSK5yX5A-unsplash"
+          }
+        ],
+        "galleryStyle": "flush",
+        "gallerySize": "full",
+        "galleryAlign": "center",
+        "galleryFrame": "polaroid"
+      },
+      {
+        "id": "about",
+        "enabled": true,
+        "background": {
+          "type": "image",
+          "color": "",
+          "imageUrl": "/uploads/1790661868776-24vpgz.jpeg",
+          "imageUrlSecondary": "",
+          "imageLayout": "background",
+          "pattern": "none",
+          "overlayOpacity": 0.01,
+          "heightMode": "custom",
+          "heightVh": 61,
+          "imageFit": "cover",
+          "imagePosition": "center",
+          "imageOpacity": 1,
+          "maskMode": "half",
+          "maskDirection": "right",
+          "maskSplit": 50,
+          "maskFeather": 25,
+          "maskClearOpacity": 0,
+          "patternColor": "#000000",
+          "patternOpacity": 0.3,
+          "patternScale": "sm"
+        },
+        "gallery": [],
+        "galleryStyle": "none",
+        "gallerySize": "md",
+        "galleryAlign": "center",
+        "galleryFrame": "none"
+      },
+      {
+        "id": "events",
+        "enabled": true,
+        "background": {
+          "type": "image",
+          "color": "",
+          "imageUrl": "/uploads/1790658649667-kj55yi.jpg",
+          "imageUrlSecondary": "",
+          "imageLayout": "split-asym-left",
+          "pattern": "none",
+          "overlayOpacity": 0.12,
+          "heightMode": "auto",
+          "heightVh": 60,
+          "imageFit": "cover",
+          "imagePosition": "left",
+          "imageOpacity": 1,
+          "maskMode": "none",
+          "maskDirection": "left",
+          "maskSplit": 50,
+          "maskFeather": 25,
+          "maskClearOpacity": 0,
+          "patternColor": "#ff8585",
+          "patternOpacity": 0.45,
+          "patternScale": "sm"
+        },
+        "gallery": [],
+        "galleryStyle": "none",
+        "gallerySize": "md",
+        "galleryAlign": "center",
+        "galleryFrame": "none"
+      },
+      {
+        "id": "founder",
+        "enabled": true,
+        "background": {
+          "type": "image",
+          "color": "",
+          "imageUrl": "/uploads/1790658746741-x6eya8.jpg",
+          "imageUrlSecondary": "",
+          "imageLayout": "split-asym-right",
+          "pattern": "dots",
+          "overlayOpacity": 0.4,
+          "heightMode": "auto",
+          "heightVh": 60,
+          "imageFit": "cover",
+          "imagePosition": "center",
+          "imageOpacity": 1,
+          "maskMode": "none",
+          "maskDirection": "left",
+          "maskSplit": 50,
+          "maskFeather": 25,
+          "maskClearOpacity": 0,
+          "patternColor": "#000000",
+          "patternOpacity": 0.6,
+          "patternScale": "sm"
+        },
+        "gallery": [],
+        "galleryStyle": "none",
+        "gallerySize": "md",
+        "galleryAlign": "center",
+        "galleryFrame": "none"
+      },
+      {
+        "id": "community",
+        "enabled": true,
+        "background": {
+          "type": "none",
+          "color": "",
+          "imageUrl": "",
+          "imageUrlSecondary": "",
+          "imageLayout": "background",
+          "pattern": "none",
+          "overlayOpacity": 0.4,
+          "heightMode": "auto",
+          "heightVh": 60,
+          "imageFit": "cover",
+          "imagePosition": "center",
+          "imageOpacity": 1,
+          "maskMode": "none",
+          "maskDirection": "left",
+          "maskSplit": 50,
+          "maskFeather": 25,
+          "maskClearOpacity": 0,
+          "patternColor": "",
+          "patternOpacity": 0.12,
+          "patternScale": "sm"
+        },
+        "gallery": [],
+        "galleryStyle": "none",
+        "gallerySize": "md",
+        "galleryAlign": "center",
+        "galleryFrame": "none"
+      }
+    ]
+  },
+  "brand": {
+    "logoUrl": "/uploads/1790658124928-gh95ut.png",
+    "headerLogoUrl": "/uploads/1790658143050-32eht2.png",
+    "footerLogoUrl": "/uploads/1790658153499-sp57b8.png",
+    "faviconUrl": "",
+    "primary": "#406cd4",
+    "secondary": "#d6a800",
+    "accent": "#d6a800",
+    "background": "#ffffff",
+    "foreground": "#303030",
+    "headerBg": "#406cd4",
+    "headerFg": "#ffffff",
+    "headerAccent": "#d6a800",
+    "footerBg": "#406cd4",
+    "footerFg": "#ffffff",
+    "footerAccent": "#d6a800",
+    "fontSans": "Inter",
+    "fontSerif": "Roboto Serif",
+    "mobileDrawerBg": "#3f60a2",
+    "mobileDrawerFg": "#ffffff",
+    "mobileDrawerAccent": "#cc9600",
+    "mobileDrawerOpacity": 0.6,
+    "mobileDrawerPattern": "crosshatch",
+    "mobileDrawerPatternOpacity": 0.24
+  },
+  "decorations": {
+    "showPackChrome": true,
+    "cornerStyle": "pack",
+    "cornerImageUrl": "",
+    "cornerPlacements": [
+      "top-left",
+      "bottom-right"
+    ],
+    "dividerStyle": "pack",
+    "dividerPosition": "mid",
+    "stampImageUrl": "",
+    "stampOpacity": 0.18,
+    "stampPosition": "bottom-right",
+    "ambientGifUrl": "",
+    "ambientGifPosition": "top-right",
+    "ambientGifOpacity": 0.55,
+    "ambientGifSize": "md",
+    "pageTexture": "pack",
+    "showFooterFlourish": true,
+    "sideGraphicUrl": "",
+    "sideGraphicSide": "left",
+    "sideGraphicOpacity": 0.35,
+    "cornerColor": "",
+    "railColor": "",
+    "dividerColor": "",
+    "textureColor": "",
+    "flourishColor": "",
+    "flourishColor2": "",
+    "cornerThickness": 2,
+    "railThickness": 2,
+    "dividerThickness": 1,
+    "flourishThickness": 3,
+    "cornerScale": 1,
+    "textureOpacity": 0.5,
+    "pages": {
+      "home": true,
+      "about": true,
+      "events": true,
+      "classes": true,
+      "posts": true,
+      "contact": true,
+      "premium": true,
+      "live": true,
+      "terms": true
+    }
+  },
+  "studio": {
+    "templateId": "dance-academy",
+    "templateAppliedAt": "2026-09-29T05:00:52.350Z",
+    "notes": "Seeded on client create"
+  }
+}

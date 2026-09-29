@@ -19,4 +19,4 @@ GitHub Pages: `https://<owner>.github.io/seru-royal-dance-studio/`
 - CMS editing / admin / console
 
 Admin: http://royal-dance-studio.localhost:5173/admin
-Exported: 2026-09-29T10:02:05.104Z
+Exported: 2026-09-29T10:16:39.450Z
